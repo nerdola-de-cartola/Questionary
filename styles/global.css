@@ -7,8 +7,8 @@
 }
 
 html {
-    --white: #0D114F;
-    --black: #FAFAFA;
+    --black: #0D114F;
+    --white: #FAFAFA;
     --red: #E83F5B;
     --light-blue: #E0ECFF;
     --blue: #3485FF;
@@ -40,6 +40,70 @@ body, input, button, text {
     font-family: 'Poppins', sans-serif;
 }
 
-.sr-only {
-    
+.sr-only{
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+.content {
+    width: 100%;
+    margin: 0px auto;
+}
+
+input, button, .button {
+    height: 5rem;
+
+    border-radius: 0.8rem;
+}
+
+button, .button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: var(--white);
+
+    line-height: 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+
+    background: var(--blue);
+
+    transition: filter 0.2s;
+}
+
+button:hover, .button:hover {
+    filter: brightness(1.2);
+}
+
+button > img
+.button > img {
+    width: 2rem;
+
+    margin-right: 1rem;
+}
+
+button.outlined,
+.button.outlined {
+    color: var(--blue);
+    background: var(--white);
+    border: 0.2rem solid var(--blue);
+}
+
+.content header {
+    width: 80%;
+}
+
+.content header img {
+    width: 16.7rem;
+    margin: 3.5rem auto;
 }
