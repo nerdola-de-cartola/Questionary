@@ -27,8 +27,8 @@ main {
     align-items: center;
 }
 
-main.container {
-    width: min(36.3rem 100%);
+main .container {
+    width: min(36.3rem, 100%);
 }
 
 main h2 {
