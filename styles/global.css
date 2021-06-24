@@ -35,11 +35,9 @@ body {
     background-color: var(--background);
 }
 
-body, input, button, text {
+body, input, button, textarea {
     font-size: clamp(14px, 1.6rem, 2vw);
-
-    /* font-family: 'Open Sans', sans-serif; */
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .sr-only{
