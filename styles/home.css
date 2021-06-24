@@ -27,7 +27,7 @@ main {
     align-items: center;
 }
 
-main.container {
+main .container {
     width: min(36.3rem, 100%);
 }
 
