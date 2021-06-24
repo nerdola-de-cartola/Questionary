@@ -28,7 +28,7 @@ main {
 }
 
 main.container {
-    width: min(36.3rem 100%);
+    width: min(36.3rem, 100%);
 }
 
 main h2 {
