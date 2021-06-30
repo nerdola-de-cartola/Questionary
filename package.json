@@ -4,11 +4,11 @@
   "description": "Projeto desenvolvido para gerenciar perguntas anonimas de usuários direcionadas ao dono da página. Projeto desenvolvido na semana NLW Rocketseat na missão discover",
   "main": "src/server.js",
   "scripts": {
-    "start": "nodemon .",
+    "start": "node src/server.js",
     "init-db": "node src/db/init.js"
   },
   "keywords": [],
-  "author": "Jakeliny Gracielly",
+  "author": "Matheus Lucas",
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.1.6",
