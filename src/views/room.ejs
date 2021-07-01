@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="styles/room.css">
     <link rel="stylesheet" href="styles/modal.css">
 
+    <!-- SCRIPTS -->
+    <script src="scripts/main.js" defer type="module"></script>
+
     <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -138,11 +141,11 @@
             <p>Tem certeza que você deseja excluir esta pergunta?</p>
 
             <form action="">
-                <label for="password" class="sr-only"></label>
+                <label for="password" class="sr-only">Digite a sua senha</label>
                 <input type="password" name="password" id="password" placeholder="Digite a sua senha">
 
                 <div class="buttons">
-                    <div class="button gray">Cancelar</div>
+                    <div class="button gray cancel">Cancelar</div>
                     <button class="red">Sim, excluir</button>
                 </div>
             </form>
