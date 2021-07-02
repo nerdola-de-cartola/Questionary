@@ -66,8 +66,5 @@
 .modal_wrapper .modal .buttons > button,
 .modal_wrapper .modal .buttons > .button {
     padding: 1.3rem 3.2rem;
-}
-
-.modal_wrapper .modal .buttons > button.red {
     margin-left: 0.8rem;
 }
