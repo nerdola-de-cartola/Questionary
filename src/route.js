@@ -10,6 +10,7 @@ route.get('/create-pass', (req, res) => res.render('index', { page: 'create-pass
 route.post('/create-room', roomController.create)
 route.get('/room/:room', roomController.open)
 
+route.post('/question/create/:room', questionController.create)
 route.post('/question/:room/:question/:action', questionController.index)
 
 module.exports = route
